@@ -39,6 +39,11 @@ const products = [
     status: "available",
     statusLabel: "Available / 可售",
 
+    tag: "Premium Pick",
+    shortNote: "Imported massage chair, very comfy / 海运来的按摩椅，很舒服",
+    sellerNote:
+      "Bought new for around RMB 20,000 and shipped here by sea. It massages really comfortably. Selling only because I am moving. / 全新购入约2万人民币，海运到菲律宾，按摩真的很舒服。因为搬家所以出售。",
+
     image: "image/02-massage-chair.jpg",
   },
   {
@@ -529,6 +534,12 @@ function renderProducts() {
   filtered.forEach(function (product) {
     const card = document.createElement("article");
     card.className = "card";
+    const tagMarkup = product.tag
+      ? '<span class="image-tag">' + product.tag + "</span>"
+      : "";
+    const noteMarkup = product.shortNote
+      ? '<p class="card-note">' + product.shortNote + "</p>"
+      : "";
     card.innerHTML =
       '<button class="card-image" data-image-id="' +
       product.id +
@@ -536,7 +547,9 @@ function renderProducts() {
       product.image +
       '" alt="' +
       product.nameEn +
-      '"></button>' +
+      '">' +
+      tagMarkup +
+      "</button>" +
       '<div class="card-body">' +
       '<h3 class="card-name-en">' +
       product.nameEn +
@@ -550,6 +563,7 @@ function renderProducts() {
       '<p class="card-meta"><strong>Condition:</strong> ' +
       product.condition +
       "</p>" +
+      noteMarkup +
       '<p class="card-price">' +
       formatPrice(product.price) +
       "</p>" +
@@ -603,6 +617,15 @@ function openModal(product) {
   document.getElementById("modalPrice").textContent = formatPrice(product.price);
   document.getElementById("modalCondition").textContent = product.condition;
   document.getElementById("modalStatus").textContent = product.statusLabel;
+  const modalNote = document.getElementById("modalSellerNote");
+  const modalNoteText = document.getElementById("modalSellerNoteText");
+  if (product.sellerNote) {
+    modalNoteText.textContent = product.sellerNote;
+    modalNote.hidden = false;
+  } else {
+    modalNoteText.textContent = "";
+    modalNote.hidden = true;
+  }
   document.getElementById("modalTelegram").href = getTelegramLink();
   detailModal.hidden = false;
 }

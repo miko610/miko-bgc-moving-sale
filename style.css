@@ -463,6 +463,23 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.image-tag {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  z-index: 1;
+  display: inline-block;
+  background: #f9bfd2;
+  border: 2px solid #32242b;
+  border-radius: 999px;
+  box-shadow: 3px 3px 0 #d92f5b;
+  color: #d92f5b;
+  font-size: 0.68rem;
+  font-weight: 900;
+  padding: 0.2rem 0.55rem;
+  transform: rotate(5deg);
+}
+
 .card-meta {
   font-size: 0.8rem;
   color: #7b6470;
@@ -471,6 +488,16 @@ body {
 
 .card-meta strong {
   color: #32242b;
+}
+
+.card-note {
+  background: #fff0f5;
+  border-left: 3px solid #f6a9c4;
+  color: #7b6470;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  margin: 0.55rem 0 0.2rem;
+  padding: 0.45rem 0.55rem;
 }
 
 .card-price {
@@ -647,6 +674,30 @@ body {
 .modal-details p {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+}
+
+.seller-note {
+  background: #fff0f5;
+  border: 2px solid #f6a9c4;
+  border-radius: 14px;
+  margin-top: 0.9rem;
+  padding: 0.85rem;
+}
+
+.seller-note[hidden] {
+  display: none;
+}
+
+.seller-note h3 {
+  color: #d92f5b;
+  font-size: 0.86rem;
+  margin-bottom: 0.35rem;
+}
+
+.seller-note p {
+  color: #5f4b55;
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .modal-telegram {
