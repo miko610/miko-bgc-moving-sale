@@ -516,6 +516,28 @@ const products = [
 
   image: "image/27-lighted-vanity-mirror.jpeg",
 },
+{
+  id: 28,
+  nameEn: "Standing Garment Steamer",
+  nameZh: "立式挂烫机",
+
+  category: "electronics",
+  categoryLabel: "Electronics 电器",
+
+  price: 1500,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Home Care",
+  shortNote: "Standing steamer for clothes / 立式衣物挂烫机",
+  sellerNote:
+    "Standing garment steamer for daily clothing care. Convenient for shirts, dresses, and delicate clothes. / 立式挂烫机，适合日常衣物护理，衬衫、裙子和比较娇气的衣服都很方便。",
+
+  image: "image/28-garment-steamer.jpeg",
+},
 ];
 
 // --- App state ---
