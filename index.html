@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BGC Moving Sale | Pickup & Delivery July 18-19</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="hero-cloud hero-cloud-left">pickup</div>
+    <div class="hero-cloud hero-cloud-right">shop</div>
+    <div class="animal-doodle animal-cat" aria-hidden="true"><span></span></div>
+    <div class="animal-doodle animal-dog" aria-hidden="true"><span></span></div>
+    <div class="container">
+      <p class="eyebrow">BGC Moving Sale</p>
+      <h1>BGC Moving Sale</h1>
+      <p class="hero-doodle">tiny home treasures</p>
+      <p class="tagline-en">Leaving July 18-19. Furniture, appliances, and home goods ready to go.</p>
+      <p class="tagline-zh">7月18-19号离开，家具、电器、生活用品清仓出售</p>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-label">Location / 地点</span>
+          <span class="info-value">BGC</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Pickup / 取货</span>
+          <span class="info-value">July 18-19 in BGC</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Delivery / 配送</span>
+          <span class="info-value">Available by arrangement</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Payment / 付款</span>
+          <span class="info-value">Cash / GCash / Bank Transfer</span>
+        </div>
+      </div>
+
+      <p class="notice">First come, first served. Pickup or delivery can be arranged for July 18-19.</p>
+      <p class="notice-zh">先到先得。可安排7月18-19号自提或配送，如需预留请先付定金。</p>
+      <p class="notice">More items are available but not photographed yet. Feel free to message and ask.</p>
+      <p class="notice-zh">还有很多物件没有拍，也可以直接私信问问有没有你需要的东西。</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="search-box">
+        <input type="search" id="searchInput" placeholder="Search items / 搜索商品...">
+      </div>
+
+      <div class="filters" id="categoryFilters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="furniture">Furniture 家具</button>
+        <button class="filter-btn" data-category="electronics">Electronics 电器</button>
+        <button class="filter-btn" data-category="kitchen">Kitchen 厨房</button>
+        <button class="filter-btn" data-category="beauty">Beauty 美妆护肤</button>
+        <button class="filter-btn" data-category="clothing">Clothing 衣服</button>
+        <button class="filter-btn" data-category="sports">Sports 运动</button>
+        <button class="filter-btn" data-category="free">Free 免费</button>
+      </div>
+    </section>
+
+    <section class="products" id="productGrid"></section>
+
+    <p class="no-results" id="noResults" hidden>No items found / 没有找到商品</p>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>BGC Moving Sale &mdash; Contact via Telegram: @miko_610</p>
+    </div>
+  </footer>
+
+  <!-- Product detail modal -->
+  <div class="modal" id="detailModal" hidden>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-image" id="modalImage"></div>
+      <h2 id="modalNameEn"></h2>
+      <p class="modal-name-zh" id="modalNameZh"></p>
+      <div class="modal-details">
+        <p><strong>Category / 分类:</strong> <span id="modalCategory"></span></p>
+        <p><strong>Price / 价格:</strong> <span id="modalPrice"></span></p>
+        <p><strong>Condition / 成色:</strong> <span id="modalCondition"></span></p>
+        <p><strong>Status / 状态:</strong> <span id="modalStatus"></span></p>
+      </div>
+      <a class="btn btn-telegram modal-telegram" id="modalTelegram" target="_blank" rel="noopener">Telegram Inquiry / Telegram 咨询</a>
+    </div>
+  </div>
+
+  <!-- Full image modal -->
+  <div class="image-modal" id="imageModal" hidden>
+    <div class="image-modal-backdrop" id="imageModalBackdrop"></div>
+    <div class="image-modal-content">
+      <button class="modal-close image-modal-close" id="imageModalClose" aria-label="Close">&times;</button>
+      <img id="fullImage" alt="">
+      <p id="fullImageCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
