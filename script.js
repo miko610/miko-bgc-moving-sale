@@ -111,9 +111,9 @@ const products = [
   statusLabel: "Available / 可售",
 
   tag: "Extra Shelves",
-  shortNote: "Extra shelves added for more shoes / 自己加装隔板，可放更多鞋",
+  shortNote: "Extra shelves added, fits 5-6 more pairs / 加装隔板，可多放5-6双鞋",
   sellerNote:
-    "We added several extra shelves inside, so it can hold many more pairs of shoes than the original setup. / 鞋柜里面我们自己加装了好几个隔板，比原本可以多放很多鞋子。",
+    "We added several extra shelves inside, so it can hold about 5-6 more pairs of shoes than the original setup. / 鞋柜里面已经自己加装了好几个隔板，比原本可以多放大约5-6双鞋。",
 
   image: "image/05-billy-shoe-cabinet.jpg",
 },
