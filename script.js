@@ -22,6 +22,11 @@ const products = [
     status: "available",
     statusLabel: "Available / 可售",
 
+    tag: "Bundle Option",
+    shortNote: "Great quality; with Unblock TV box set is ₱20,000 / 质量很好，带安博盒子一套₱20,000",
+    sellerNote:
+      "The TV is in great condition and works well. Listed price is for the TV only; if you want it together with the Unblock TV box, the set is ₱20,000. / 电视质量很好，功能正常。页面价格为电视单独价格；如果带安博盒子，一套是 ₱20,000。",
+
     image: "image/01-tv.jpg",
 },
   {
@@ -61,6 +66,11 @@ const products = [
     status: "available",
     statusLabel: "Available / 可售",
 
+    tag: "Very New",
+    shortNote: "Very new and clean / 梳妆台也很新",
+    sellerNote:
+      "The dressing table set is still very new and clean. Good for anyone who wants a ready-to-use vanity setup. / 梳妆台套装整体很新很干净，适合想直接拥有完整化妆区的人。",
+
     image: "image/03-ikea-dressing-table-malm-set.jpg",
 },
 {
@@ -73,10 +83,15 @@ const products = [
 
   price: 8000,
 
-  condition: "Good / 良好",
+  condition: "Almost New / 几乎全新",
 
   status: "available",
   statusLabel: "Available / 可售",
+
+  tag: "Almost New",
+  shortNote: "Almost new MALM drawers / 马尔姆柜子几乎全新",
+  sellerNote:
+    "The MALM drawer chest is almost new and has been kept in very good condition. / 马尔姆斗柜几乎全新，保存状态很好。",
 
   image: "image/04-malm-drawer.jpg",
 },
@@ -94,6 +109,11 @@ const products = [
 
   status: "available",
   statusLabel: "Available / 可售",
+
+  tag: "Extra Shelves",
+  shortNote: "Extra shelves added for more shoes / 自己加装隔板，可放更多鞋",
+  sellerNote:
+    "We added several extra shelves inside, so it can hold many more pairs of shoes than the original setup. / 鞋柜里面我们自己加装了好几个隔板，比原本可以多放很多鞋子。",
 
   image: "image/05-billy-shoe-cabinet.jpg",
 },
@@ -146,6 +166,11 @@ const products = [
   status: "available",
   statusLabel: "Available / 可售",
 
+  tag: "Super Handy",
+  shortNote: "Super convenient capsule coffee machine / 真的超级方便",
+  sellerNote:
+    "This capsule coffee machine is really convenient for daily use, especially for quick coffee at home. / 胶囊咖啡机真的超级超级方便，很适合每天在家快速喝咖啡。",
+
   image: "image/08-nespresso-coffee-machine.jpeg",
 },
 {
@@ -197,6 +222,11 @@ const products = [
   status: "available",
   statusLabel: "Available / 可售",
 
+  tag: "More Available",
+  shortNote: "Several carts available; can send more photos / 有好几个，还有2个小的可拍",
+  sellerNote:
+    "There are several storage carts available, plus two smaller ones. Message me if you want more photos. / 置物架有好几个，还有2个小的，需要的话可以私信我再拍照片。",
+
   image: "image/11-ikea-utility-cart.jpeg",
 },
 {
@@ -230,6 +260,11 @@ const products = [
 
   status: "available",
   statusLabel: "Available / 可售",
+
+  tag: "Full Set",
+  shortNote: "High-use set with hotpot and grill plates / 使用率高，火锅烤肉锅都有",
+  sellerNote:
+    "This Morphy Richards set is very useful and has been used often. It comes with the hotpot and grill plates, plus two extra plates. / 摩飞锅使用率非常高，火锅、烤肉锅都有配，也包含另外两个餐盘。",
 
   image: "image/13-morphy-richards-electric-pot-set.jpeg",
 },
@@ -265,6 +300,11 @@ const products = [
   status: "available",
   statusLabel: "Available / 可售",
 
+  tag: "Free Extras",
+  shortNote: "More seasonings not pictured can be included / 还有没拍到的调料可送",
+  sellerNote:
+    "There are also some seasonings that are not shown in the photo, and they can be included as extras. / 还有一些调料没有拍上，也可以一起送。",
+
   image: "image/15-condiments-and-seasonings.jpeg",
 },
 {
@@ -294,10 +334,15 @@ const products = [
 
     price: 18500,
 
-  condition: "Good / 良好",
+  condition: "Almost New / 几乎全新",
 
   status: "available",
   statusLabel: "Available / 可售",
+
+  tag: "Almost New",
+  shortNote: "Almost new Switch bundle / Switch 几乎全新",
+  sellerNote:
+    "The Nintendo Switch is almost new and comes as a bundle with games. / Switch 几乎全新，和游戏一起套装出售。",
 
   image: "image/17-nintendo-switch-game-bundle.jpeg",
 },
@@ -514,7 +559,10 @@ function matchesFilter(product) {
     query === "" ||
     product.nameEn.toLowerCase().includes(query) ||
     product.nameZh.includes(query) ||
-    product.categoryLabel.toLowerCase().includes(query);
+    product.categoryLabel.toLowerCase().includes(query) ||
+    (product.tag && product.tag.toLowerCase().includes(query)) ||
+    (product.shortNote && product.shortNote.toLowerCase().includes(query)) ||
+    (product.sellerNote && product.sellerNote.toLowerCase().includes(query));
 
   return categoryMatch && searchMatch;
 }
