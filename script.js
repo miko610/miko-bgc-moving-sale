@@ -129,8 +129,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/06-billy-bookcase.jpg",
 },
@@ -146,8 +146,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/07-ikea-tall-glass-door-bookcase.png",
 },
@@ -219,8 +219,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "More Available",
   shortNote: "Several carts available; can send more photos / 有好几个，还有2个小的可拍",
@@ -241,8 +241,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/12-ikea-mesh-drawer-units.jpeg",
 },
@@ -494,8 +494,8 @@ const products = [
 
   condition: "Very Good / 九成新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/26-5-tier-storage-cabinet.jpeg",
 },
