@@ -538,6 +538,141 @@ const products = [
 
   image: "image/28-garment-steamer.jpeg",
 },
+{
+  id: 29,
+  nameEn: "Makeup Mirror + Cosmetic Organizer Set",
+  nameZh: "化妆镜 + 化妆收纳盒套装",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆",
+
+  price: 800,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Set Sale",
+  shortNote: "Mirror + cosmetic organizers set / 化妆镜和收纳盒一套",
+  sellerNote:
+    "Includes the lighted makeup mirror and cosmetic storage organizers shown in the photos. / 包含图片里的化妆镜和化妆收纳盒，一套 ₱800。",
+
+  images: [
+    "image/29-lighted-makeup-mirror.jpeg",
+    "image/29-makeup-organizer.jpeg",
+  ],
+},
+{
+  id: 30,
+  nameEn: "IKEA Black Bedside Table",
+  nameZh: "宜家床头茶几",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 500,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "IKEA",
+  shortNote: "Compact bedside table / 宜家床头小茶几",
+  sellerNote:
+    "Compact black IKEA bedside table, useful beside a bed or sofa. / 黑色宜家床头茶几，可放床边或沙发旁边。",
+
+  image: "image/30-ikea-black-bedside-table.jpeg",
+},
+{
+  id: 31,
+  nameEn: "Queen Size Pillow",
+  nameZh: "Queen 尺寸枕头",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 300,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Queen",
+  shortNote: "Queen size pillow / Queen 尺寸枕头",
+  sellerNote:
+    "Queen size pillow in storage bag. / Queen 尺寸枕头，带收纳袋。",
+
+  image: "image/31-queen-pillow.jpeg",
+},
+{
+  id: 32,
+  nameEn: "Purple Storage Baskets, Set of 2",
+  nameZh: "紫色收纳框 2 个",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 200,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Set of 2",
+  shortNote: "Two purple storage baskets / 紫色收纳框两个",
+  sellerNote:
+    "Set of two purple storage baskets, useful for closet, bathroom, or shelf organization. / 紫色收纳框两个，适合衣柜、浴室或架子收纳。",
+
+  image: "image/32-purple-storage-baskets.jpeg",
+},
+{
+  id: 33,
+  nameEn: "1.5m Aircon Quilt",
+  nameZh: "1.5 米空调被",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 350,
+
+  condition: "Almost New / 基本没用",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Almost New",
+  shortNote: "Almost unused 1.5m aircon quilt / 1.5米空调被，基本没用",
+  sellerNote:
+    "1.5m aircon quilt, basically unused. / 1.5 米空调被，基本没用。",
+
+  image: "image/33-aircon-quilt.jpeg",
+},
+{
+  id: 34,
+  nameEn: "Adjustable Study Desk",
+  nameZh: "可调节学习桌 / 小桌",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 800,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Adjustable",
+  shortNote: "Small adjustable desk with shelves / 可调节小桌，带置物层",
+  sellerNote:
+    "Small adjustable desk with lower shelves and wheels. Price is estimated first because it was not listed in the price screenshot. / 可调节小桌，带下层置物和轮子。价格先按 ₱800 上架，因为价格截图里没有写到这一件。",
+
+  image: "image/34-adjustable-study-desk.jpeg",
+},
 ];
 
 // --- App state ---
@@ -570,6 +705,14 @@ function getStatusClass(status) {
   if (status === "available") return "status-available";
   if (status === "reserved") return "status-reserved";
   return "status-sold";
+}
+
+function getProductImages(product) {
+  return product.images || [product.image];
+}
+
+function getProductCover(product) {
+  return getProductImages(product)[0];
 }
 
 function matchesFilter(product) {
@@ -614,7 +757,7 @@ function renderProducts() {
       '<button class="card-image" data-image-id="' +
       product.id +
       '" aria-label="View full product image"><img src="' +
-      product.image +
+      getProductCover(product) +
       '" alt="' +
       product.nameEn +
       '">' +
@@ -679,8 +822,14 @@ function renderProducts() {
 
 // --- Modal ---
 function openModal(product) {
-  document.getElementById("modalImage").innerHTML =
-    '<img src="' + product.image + '" alt="' + product.nameEn + '">';
+  const productImages = getProductImages(product);
+  const modalImage = document.getElementById("modalImage");
+  modalImage.classList.toggle("modal-image-gallery", productImages.length > 1);
+  modalImage.innerHTML = productImages
+    .map(function (image) {
+      return '<img src="' + image + '" alt="' + product.nameEn + '">';
+    })
+    .join("");
   document.getElementById("modalNameEn").textContent = product.nameEn;
   document.getElementById("modalNameZh").textContent = product.nameZh;
   document.getElementById("modalCategory").textContent = product.categoryLabel;
@@ -706,7 +855,7 @@ function closeModal() {
 
 function openImageModal(product) {
   const fullImage = document.getElementById("fullImage");
-  fullImage.src = product.image;
+  fullImage.src = getProductCover(product);
   fullImage.alt = product.nameEn;
   document.getElementById("fullImageCaption").textContent =
     product.nameEn + " / " + product.nameZh;
