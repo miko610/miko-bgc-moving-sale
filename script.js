@@ -19,8 +19,8 @@ const products = [
 
     condition: "Very Good / 九成新",
 
-    status: "available",
-    statusLabel: "Available / 可售",
+    status: "reserved",
+    statusLabel: "Reserved / 已预定",
 
     tag: "Bundle Option",
     shortNote: "Great quality; with Unblock TV box set is ₱20,000 / 质量很好，带安博盒子一套₱20,000",
