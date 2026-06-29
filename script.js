@@ -673,6 +673,50 @@ const products = [
 
   image: "image/34-adjustable-study-desk.jpeg",
 },
+{
+  id: 35,
+  nameEn: "LED Makeup Bag",
+  nameZh: "LED 化妆包",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆",
+
+  price: 400,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "LED Mirror",
+  shortNote: "Makeup bag with built-in LED mirror / 带 LED 镜子的化妆包",
+  sellerNote:
+    "Portable makeup bag with built-in LED mirror and adjustable dividers inside. / 便携化妆包，带 LED 镜子，里面有可调整分隔格。",
+
+  image: "image/35-led-makeup-bag.jpeg",
+},
+{
+  id: 36,
+  nameEn: "Portable Handheld Iron",
+  nameZh: "手持小型熨斗",
+
+  category: "electronics",
+  categoryLabel: "Electronics 电器",
+
+  price: 800,
+
+  condition: "Very Good / 九成新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Portable",
+  shortNote: "Small handheld iron for clothes / 便携手持小型熨斗",
+  sellerNote:
+    "Compact handheld iron, useful for quick clothing touch-ups at home or before going out. / 小型手持熨斗，适合出门前快速整理衣服。",
+
+  image: "image/36-portable-handheld-iron.jpeg",
+},
 ];
 
 // --- App state ---
