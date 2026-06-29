@@ -870,10 +870,24 @@ function openModal(product) {
   const modalImage = document.getElementById("modalImage");
   modalImage.classList.toggle("modal-image-gallery", productImages.length > 1);
   modalImage.innerHTML = productImages
-    .map(function (image) {
-      return '<img src="' + image + '" alt="' + product.nameEn + '">';
+    .map(function (image, index) {
+      return (
+        '<button class="modal-image-button" data-image-index="' +
+        index +
+        '" aria-label="View full product image"><img src="' +
+        image +
+        '" alt="' +
+        product.nameEn +
+        '"></button>'
+      );
     })
     .join("");
+  modalImage.querySelectorAll(".modal-image-button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      const imageIndex = parseInt(btn.getAttribute("data-image-index"), 10);
+      openImageModal(product, imageIndex);
+    });
+  });
   document.getElementById("modalNameEn").textContent = product.nameEn;
   document.getElementById("modalNameZh").textContent = product.nameZh;
   document.getElementById("modalCategory").textContent = product.categoryLabel;
@@ -897,9 +911,11 @@ function closeModal() {
   detailModal.hidden = true;
 }
 
-function openImageModal(product) {
+function openImageModal(product, imageIndex) {
+  const productImages = getProductImages(product);
+  const selectedImage = productImages[imageIndex || 0] || getProductCover(product);
   const fullImage = document.getElementById("fullImage");
-  fullImage.src = getProductCover(product);
+  fullImage.src = selectedImage;
   fullImage.alt = product.nameEn;
   document.getElementById("fullImageCaption").textContent =
     product.nameEn + " / " + product.nameZh;
