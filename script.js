@@ -717,6 +717,28 @@ const products = [
 
   image: "image/36-portable-handheld-iron.jpeg",
 },
+{
+  id: 37,
+  nameEn: "IKEA Pegboard with Stand and Accessories",
+  nameZh: "宜家洞洞板带支架和配件",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 1800,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "IKEA",
+  shortNote: "Pegboard with stand and accessories / 洞洞板带支架和配件",
+  sellerNote:
+    "IKEA pegboard with stand and accessories, good for desk or craft storage. / 宜家洞洞板，带支架和配件，适合桌面、手工或小物收纳。",
+
+  image: "image/37-ikea-pegboard-with-stand.jpeg",
+},
 ];
 
 // --- App state ---
