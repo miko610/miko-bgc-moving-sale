@@ -882,6 +882,12 @@ function openModal(product) {
       );
     })
     .join("");
+  if (productImages.length > 1) {
+    modalImage.insertAdjacentHTML(
+      "beforeend",
+      '<span class="modal-swipe-hint">Swipe / 左右滑动</span>'
+    );
+  }
   modalImage.querySelectorAll(".modal-image-button").forEach(function (btn) {
     btn.addEventListener("click", function () {
       const imageIndex = parseInt(btn.getAttribute("data-image-index"), 10);

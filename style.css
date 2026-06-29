@@ -643,6 +643,7 @@ body {
 }
 
 .modal-image {
+  position: relative;
   height: 260px;
   background: #fff0f5;
   border: 3px solid #32242b;
@@ -679,7 +680,39 @@ body {
   justify-content: flex-start;
   gap: 0.65rem;
   overflow-x: auto;
+  overflow-y: hidden;
   padding: 0.65rem;
+  padding-bottom: 1rem;
+  scroll-snap-type: x proximity;
+  scrollbar-color: #d92f5b #f9bfd2;
+  scrollbar-width: thin;
+}
+
+.modal-image-gallery::after {
+  content: "";
+  position: sticky;
+  right: -0.65rem;
+  flex: 0 0 2.2rem;
+  align-self: stretch;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255, 240, 245, 0), #fff0f5 72%);
+  border-radius: 0 12px 12px 0;
+}
+
+.modal-image-gallery::-webkit-scrollbar {
+  height: 12px;
+}
+
+.modal-image-gallery::-webkit-scrollbar-track {
+  background: #f9bfd2;
+  border: 2px solid #32242b;
+  border-radius: 999px;
+}
+
+.modal-image-gallery::-webkit-scrollbar-thumb {
+  background: #d92f5b;
+  border: 2px solid #32242b;
+  border-radius: 999px;
 }
 
 .modal-image-gallery .modal-image-button {
@@ -688,6 +721,24 @@ body {
   border-radius: 12px;
   background: #fffaf1;
   overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.modal-swipe-hint {
+  position: sticky;
+  right: 0.35rem;
+  bottom: 0.25rem;
+  align-self: flex-end;
+  flex: 0 0 auto;
+  background: #f9bfd2;
+  border: 2px solid #32242b;
+  border-radius: 999px;
+  box-shadow: 3px 3px 0 #d92f5b;
+  color: #32242b;
+  font-size: 0.68rem;
+  font-weight: 900;
+  padding: 0.18rem 0.5rem;
+  pointer-events: none;
 }
 
 .modal-content h2 {
