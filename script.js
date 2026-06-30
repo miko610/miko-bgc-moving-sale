@@ -293,7 +293,7 @@ const products = [
   category: "kitchen",
   categoryLabel: "Kitchen 厨房",
 
-    price: 700,
+    price: 500,
 
   condition: "Good / 良好",
 
@@ -354,14 +354,19 @@ const products = [
   category: "electronics",
   categoryLabel: "Electronics 电器",
 
-    price: 700,
+    price: 500,
 
   condition: "Fair / 有使用痕迹",
 
   status: "available",
   statusLabel: "Available / 可售",
 
-  image: "image/18-xiaomi-smart-scale.jpeg",
+  tag: "Xiaomi",
+  shortNote: "Xiaomi electronic scale / 小米电子秤",
+  sellerNote:
+    "Xiaomi electronic scale with visible signs of use, priced at ₱500. / 小米电子秤，有使用痕迹，标价 ₱500。",
+
+  image: "image/50-xiaomi-smart-scale.jpeg",
 },
 {
   id: 19,
@@ -899,6 +904,118 @@ const products = [
     "Storage box with clear cover and drawers, useful for cosmetics, perfume, and small items. / 带透明盖和抽屉的收纳盒，适合放化妆品、香水和小物件。",
 
   image: "image/44-cosmetic-storage-box.jpeg",
+},
+{
+  id: 45,
+  nameEn: "180 x 230cm Throw Blanket",
+  nameZh: "180 x 230cm 沙发毯 / 盖毯",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 1000,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "2 Available",
+  shortNote: "180 x 230cm, 2 available, ₱1,000 each / 180x230cm，共2张，单张₱1,000",
+  sellerNote:
+    "180 x 230cm throw blanket. There are 2 available, priced at ₱1,000 each. / 180 x 230cm 沙发毯/盖毯，一共2张，单张 ₱1,000。",
+
+  image: "image/45-180x230-throw-blanket.jpeg",
+},
+{
+  id: 46,
+  nameEn: "Vanity Table Full Set with Mirror",
+  nameZh: "梳妆台整套加镜子",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 12000,
+
+  condition: "Very Good / 九成新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Full Set",
+  shortNote: "Full vanity set with mirror, excellent quality / 梳妆台整套加镜子，质量超级好",
+  sellerNote:
+    "Full vanity table set with mirror. The quality is excellent and the set is ready to use. / 梳妆台一整套加镜子，质量超级好，可以直接使用。",
+
+  image: "image/46-vanity-table-mirror-set.png",
+},
+{
+  id: 47,
+  nameEn: "Electric Stew Pot",
+  nameZh: "炖盅",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房",
+
+  price: 500,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  shortNote: "Small electric stew pot / 小炖盅",
+  sellerNote:
+    "Small electric stew pot, useful for soup, porridge, and small daily cooking. / 小炖盅，适合炖汤、煮粥或日常小份烹饪。",
+
+  image: "image/47-electric-stew-pot.jpeg",
+},
+{
+  id: 48,
+  nameEn: "Storage Carts, Black and White",
+  nameZh: "黑色/白色置物推车",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 1000,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Each ₱1,000",
+  shortNote: "Two carts available, ₱1,000 each / 两个置物推车，每个₱1,000",
+  sellerNote:
+    "Black and white storage carts are available. Each cart is ₱1,000. / 黑色和白色置物推车各一个，每个 ₱1,000。",
+
+  images: [
+    "image/48-black-white-storage-carts-black.jpeg",
+    "image/48-black-white-storage-carts-white.jpeg",
+  ],
+},
+{
+  id: 49,
+  nameEn: "White Mesh Storage Rack",
+  nameZh: "白色网格置物架",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 500,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Storage",
+  shortNote: "White rolling storage rack / 白色带轮置物架",
+  sellerNote:
+    "White mesh rolling storage rack, useful for bags, accessories, or small household items. / 白色网格带轮置物架，适合放包包、配件或家用小物。",
+
+  image: "image/49-white-mesh-storage-rack.png",
 },
 ];
 
