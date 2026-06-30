@@ -163,8 +163,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Super Handy",
   shortNote: "Super convenient capsule coffee machine / 真的超级方便",
@@ -185,8 +185,8 @@ const products = [
 
   condition: "Very Good / 九成新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/09-ikea-glassware-set.jpeg",
 },
@@ -280,8 +280,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/14-cooking-oil.jpeg",
 },
@@ -336,8 +336,8 @@ const products = [
 
   condition: "Almost New / 几乎全新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Almost New",
   shortNote: "Almost new Switch bundle / Switch 几乎全新",
@@ -409,8 +409,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/21-bear-electric-stew-pot.jpeg",
 },
@@ -443,8 +443,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/23-midea-air-fryer.jpeg",
 },
@@ -528,8 +528,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Home Care",
   shortNote: "Standing steamer for clothes / 立式衣物挂烫机",
@@ -550,8 +550,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Set Sale",
   shortNote: "Mirror + cosmetic organizers set / 化妆镜和收纳盒一套",
@@ -619,8 +619,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Set of 2",
   shortNote: "Two purple storage baskets / 紫色收纳框两个",
@@ -641,8 +641,8 @@ const products = [
 
   condition: "Almost New / 基本没用",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Almost New",
   shortNote: "Almost unused 1.5m aircon quilt / 1.5米空调被，基本没用",
