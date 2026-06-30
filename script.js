@@ -297,8 +297,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Free Extras",
   shortNote: "More seasonings not pictured can be included / 还有没拍到的调料可送",
@@ -511,8 +511,8 @@ const products = [
 
   condition: "Very Good / 九成新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/27-lighted-vanity-mirror.jpeg",
 },
