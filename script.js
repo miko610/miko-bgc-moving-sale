@@ -805,6 +805,101 @@ const products = [
 
   image: "image/40-hanabishi-toaster.jpeg",
 },
+{
+  id: 41,
+  nameEn: "Texas Hold'em Poker Full Set",
+  nameZh: "德州扑克全套",
+
+  category: "sports",
+  categoryLabel: "Sports 运动",
+
+  price: 10000,
+
+  condition: "Very Good / 九成新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Full Set",
+  shortNote: "Full poker set, includes 5 WPT decks / 德州扑克全套，送5副WPT扑克",
+  sellerNote:
+    "Texas Hold'em full set with table mat, poker chips, and 5 WPT playing card decks included. / 德州扑克全套，包含德州扑克桌垫、筹码套装，并送5副WPT扑克。",
+
+  images: [
+    "image/41-texas-holdem-table-mat.jpeg",
+    "image/41-texas-holdem-poker-chip-set.jpeg",
+    "image/41-wpt-playing-cards.jpeg",
+  ],
+},
+{
+  id: 42,
+  nameEn: "Plastic Stools, Set of 3",
+  nameZh: "塑料凳子 3 个",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 1000,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Set of 3",
+  shortNote: "Three stackable stools / 三个凳子一套",
+  sellerNote:
+    "Set of three stackable plastic stools, easy to store and useful for extra seating. / 三个塑料凳子一套，可叠放，适合临时加座或日常使用。",
+
+  image: "image/42-plastic-stools-set-of-3.jpeg",
+},
+{
+  id: 43,
+  nameEn: "AtourPlanet Deep Sleep Pillow Pro 3.0",
+  nameZh: "亚朵星球深睡枕 Pro 3.0",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 2800,
+
+  condition: "Very Good / 九成新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Super Comfy",
+  shortNote: "Really comfortable, helps you sleep well / 真的很舒服，每天都睡很好",
+  sellerNote:
+    "AtourPlanet Deep Sleep Pillow Pro 3.0. It is really comfortable; after using it, I slept very well every day. / 亚朵星球深睡枕 Pro 3.0，真的很舒服，用完每天都睡很好。",
+
+  images: [
+    "image/43-atourplanet-sleep-pillow-main.jpeg",
+    "image/43-atourplanet-sleep-pillow-details.jpeg",
+  ],
+},
+{
+  id: 44,
+  nameEn: "Cosmetic Storage Box",
+  nameZh: "收纳盒",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆",
+
+  price: 300,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Storage",
+  shortNote: "Storage box with drawers / 带抽屉收纳盒",
+  sellerNote:
+    "Storage box with clear cover and drawers, useful for cosmetics, perfume, and small items. / 带透明盖和抽屉的收纳盒，适合放化妆品、香水和小物件。",
+
+  image: "image/44-cosmetic-storage-box.jpeg",
+},
 ];
 
 // --- App state ---
