@@ -739,6 +739,72 @@ const products = [
 
   image: "image/37-ikea-pegboard-with-stand.jpeg",
 },
+{
+  id: 38,
+  nameEn: "Xiaomi Large-Capacity Rice Cooker",
+  nameZh: "小米大容量电饭锅",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房",
+
+  price: 800,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Large Capacity",
+  shortNote: "Large-capacity Xiaomi rice cooker / 小米大容量电饭锅",
+  sellerNote:
+    "Large-capacity Xiaomi rice cooker, useful for daily cooking or cooking for several people. / 小米大容量电饭锅，适合日常做饭或多人使用。",
+
+  image: "image/38-xiaomi-large-rice-cooker.jpeg",
+},
+{
+  id: 39,
+  nameEn: "Joyoung Soy Milk Maker",
+  nameZh: "九阳豆浆机",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房",
+
+  price: 300,
+
+  condition: "Fair / 有使用痕迹",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "No Cord",
+  shortNote: "Can make hot soy milk, but no power cord / 可以打热豆浆，但是没有线",
+  sellerNote:
+    "Super convenient soy milk maker that can make hot soy milk. Please note it does not come with a power cord. / 豆浆机超级方便，可以打热豆浆；注意没有电源线。",
+
+  image: "image/39-joyoung-soy-milk-maker.jpeg",
+},
+{
+  id: 40,
+  nameEn: "Hanabishi Toaster",
+  nameZh: "吐司机",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房",
+
+  price: 500,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Toaster",
+  shortNote: "Compact toaster / 家用吐司机",
+  sellerNote:
+    "Compact toaster for daily breakfast use. / 家用吐司机，适合日常早餐烤面包。",
+
+  image: "image/40-hanabishi-toaster.jpeg",
+},
 ];
 
 // --- App state ---
