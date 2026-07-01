@@ -1328,6 +1328,46 @@ const products = [
     "image/73-white-one-shoulder-jumpsuit.jpg",
   ],
 },
+{
+  id: 74,
+  nameEn: "Secondhand Dress Collection 1200",
+  nameZh: "二手连衣裙合集 1200",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 1200,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Collection",
+  shortNote: "₱1,200 each, choose from the detail photos / ₱1,200一件，点详情任选喜欢的",
+  sellerNote:
+    "Secondhand dress collection, ₱1,200 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱1,200一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/74-secondhand-dress-collection-1200-cover.png",
+    "image/74-white-ruffle-shorts-set-main.jpg",
+    "image/74-white-ruffle-shorts-set-alt.jpg",
+    "image/74-white-one-shoulder-wide-leg-set.jpg",
+    "image/74-off-shoulder-printed-maxi-dress-main.jpg",
+    "image/74-off-shoulder-printed-maxi-dress-alt1.jpg",
+    "image/74-off-shoulder-printed-maxi-dress-alt2.jpg",
+    "image/74-khaki-vacation-slip-set.jpg",
+    "image/74-striped-shirt-skirt-set-main.jpg",
+    "image/74-striped-shirt-skirt-set-alt1.jpg",
+    "image/74-striped-shirt-skirt-set-alt2.jpg",
+    "image/74-brown-butterfly-slip-dress-product.jpg",
+    "image/74-brown-butterfly-slip-dress-model.jpg",
+    "image/74-brown-halter-mini-dress-main.jpg",
+    "image/74-brown-halter-mini-dress-alt.jpg",
+    "image/74-pink-slip-maxi-dress-main.jpg",
+    "image/74-pink-slip-maxi-dress-alt.jpg",
+  ],
+},
 ];
 
 // --- App state ---
