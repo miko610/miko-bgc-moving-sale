@@ -383,7 +383,10 @@ const products = [
   status: "available",
   statusLabel: "Available / 可售",
 
-  image: "image/19-dinnerware-gift-set.jpeg",
+  images: [
+    "image/19-dinnerware-gift-set.jpeg",
+    "image/19-dinnerware-gift-set-extra.jpeg",
+  ],
 },
 {
   id: 20,
@@ -1188,6 +1191,74 @@ const products = [
     "Black sleeveless top and floral skirt full set. Worn once; the necklace was bought separately and is included. / 黑色无袖上衣 + 花朵半裙一整套，穿过一次；项链是单独买的，可以一起送。",
 
   image: "image/56-black-top-floral-skirt-necklace-set.jpg",
+},
+{
+  id: 57,
+  nameEn: "Dish Draining Rack",
+  nameZh: "沥水篮",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房",
+
+  price: 300,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  shortNote: "Dish draining rack / 沥水篮",
+  sellerNote:
+    "Dish draining rack for kitchen counter use. / 厨房台面用沥水篮。",
+
+  image: "image/57-dish-draining-rack.jpeg",
+},
+{
+  id: 58,
+  nameEn: "Sewing Kit",
+  nameZh: "针线盒",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 300,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Handy Kit",
+  shortNote: "Sewing kit with thread and needles / 针线盒，含线和针",
+  sellerNote:
+    "Compact sewing kit with thread, needles, measuring tape, and small repair tools. / 小型针线盒，包含线、针、软尺和日常修补小工具。",
+
+  images: [
+    "image/58-sewing-kit-open.jpeg",
+    "image/58-sewing-kit-closed.jpeg",
+  ],
+},
+{
+  id: 59,
+  nameEn: "Fire Safety Set",
+  nameZh: "消防套装",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 300,
+
+  condition: "Good / 良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Safety",
+  shortNote: "Fire safety set / 消防套装",
+  sellerNote:
+    "Fire safety set, including fire cloak and escape hood. / 消防套装，包含防火斗篷和逃生面罩。",
+
+  image: "image/59-fire-safety-set.jpeg",
 },
 ];
 
