@@ -1017,6 +1017,178 @@ const products = [
 
   image: "image/49-white-mesh-storage-rack.png",
 },
+{
+  id: 50,
+  nameEn: "White Printed Off-Shoulder Tee + Cargo Pants Set",
+  nameZh: "白色印花露肩T恤 + 工装阔腿裤套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 1500,
+
+  condition: "Very Good / 九成新，穿过一次",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Set",
+  shortNote: "Worn once, about 90% new / 穿过一次，9成新",
+  sellerNote:
+    "White printed off-shoulder tee and cargo wide-leg pants set. Worn once and still about 90% new. / 白色印花露肩T恤 + 工装阔腿裤一套，穿过一次，9成新。",
+
+  images: [
+    "image/50-white-print-tee-cargo-pants-main.png",
+    "image/50-white-print-tee-cargo-pants-top.jpg",
+    "image/50-white-print-tee-cargo-pants-pants.jpg",
+  ],
+},
+{
+  id: 51,
+  nameEn: "White Tie Blouse + Light Blue Jeans Set",
+  nameZh: "白色飘带衬衫 + 浅蓝牛仔阔腿裤套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 2000,
+
+  condition: "Brand New / 全新，已烫好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Brand New",
+  shortNote: "Brand new and already ironed / 全新，已经烫好",
+  sellerNote:
+    "White tie blouse and light blue wide-leg jeans set. Brand new and already ironed, ready to wear. / 白色飘带衬衫 + 浅蓝牛仔阔腿裤一套，全新，已经烫好，可以直接穿。",
+
+  images: [
+    "image/51-white-tie-blouse-jeans-main.png",
+    "image/51-white-tie-blouse-jeans-jeans.jpg",
+    "image/51-white-tie-blouse-jeans-blouse.jpeg",
+  ],
+},
+{
+  id: 52,
+  nameEn: "White Sleeveless Shirt + Denim Skirt Set",
+  nameZh: "白色无袖衬衫 + 牛仔半裙套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 1200,
+
+  condition: "Brand New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Brand New",
+  shortNote: "Brand new full set / 全新一套",
+  sellerNote:
+    "White sleeveless shirt and denim skirt set, brand new. / 白色无袖衬衫 + 牛仔半裙一套，全新。",
+
+  images: [
+    "image/52-white-shirt-denim-skirt-main.png",
+    "image/52-white-shirt-denim-skirt-skirt.jpeg",
+    "image/52-white-shirt-denim-skirt-shirt.jpeg",
+  ],
+},
+{
+  id: 53,
+  nameEn: "Pink One-Shoulder Top + Mini Skirt Set",
+  nameZh: "粉色单肩上衣 + 短裙套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 2000,
+
+  condition: "Brand New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Petite Friendly",
+  shortNote: "Brand new, good for petite girls / 全新，适合小个子",
+  sellerNote:
+    "Pink one-shoulder top and mini skirt set. Brand new and especially suitable for petite girls. / 粉色单肩上衣 + 短裙一套，全新，适合小个子。",
+
+  images: [
+    "image/53-pink-top-mini-skirt-main.jpg",
+    "image/53-pink-top-mini-skirt-alt.jpg",
+  ],
+},
+{
+  id: 54,
+  nameEn: "Beige Lace Layered Outfit Set",
+  nameZh: "米色蕾丝叠穿套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Brand New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Lining Included",
+  shortNote: "Brand new, includes separately bought inner lining / 全新，送单独买的内衬",
+  sellerNote:
+    "Beige lace layered outfit set, brand new. I bought the inner lining separately and it can be included for free. / 米色蕾丝叠穿套装，全新；自己单独买了里面的内衬，可以一起送。",
+
+  image: "image/54-beige-lace-layered-set.jpg",
+},
+{
+  id: 55,
+  nameEn: "Grey Vest + Wide-Leg Pants Set",
+  nameZh: "灰色背心 + 阔腿裤套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 2000,
+
+  condition: "Brand New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Petite Friendly",
+  shortNote: "Brand new, good for petite girls / 全新，适合小个子",
+  sellerNote:
+    "Grey vest and wide-leg pants set. Brand new and suitable for petite girls. / 灰色背心 + 阔腿裤一套，全新，适合小个子。",
+
+  images: [
+    "image/55-grey-vest-wide-pants-main.jpg",
+    "image/55-grey-vest-wide-pants-alt.jpg",
+  ],
+},
+{
+  id: 56,
+  nameEn: "Black Sleeveless Top + Floral Skirt Set",
+  nameZh: "黑色无袖上衣 + 花朵半裙套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 1500,
+
+  condition: "Very Good / 穿过一次",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Necklace Included",
+  shortNote: "Worn once, necklace included / 穿过一次，送单独买的项链",
+  sellerNote:
+    "Black sleeveless top and floral skirt full set. Worn once; the necklace was bought separately and is included. / 黑色无袖上衣 + 花朵半裙一整套，穿过一次；项链是单独买的，可以一起送。",
+
+  image: "image/56-black-top-floral-skirt-necklace-set.jpg",
+},
 ];
 
 // --- App state ---
