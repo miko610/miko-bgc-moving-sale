@@ -205,19 +205,13 @@ body {
   transform: rotate(-18deg);
 }
 
-.eyebrow {
-  display: inline-block;
-  background: #fffaf1;
-  border: 3px solid #32242b;
-  border-radius: 999px;
-  box-shadow: 5px 5px 0 #f6a9c4;
-  color: #d92f5b;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.7rem;
-  padding: 0.3rem 0.7rem;
-  text-transform: uppercase;
+.eyebrow-sticker {
+  display: block;
+  width: min(19rem, 78vw);
+  height: auto;
+  margin: 0 auto 0.7rem;
+  border-radius: 14px;
+  object-fit: contain;
 }
 
 .header h1 {
