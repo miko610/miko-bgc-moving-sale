@@ -1285,6 +1285,313 @@ const products = [
     "image/60-closet-surprise-box-details.png",
   ],
 },
+{
+  id: 61,
+  nameEn: "Secondhand Dress Collection",
+  nameZh: "二手连衣裙合集",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Collection",
+  shortNote: "₱800 each, choose from the dress listings / ₱800一件，点详情任选喜欢的",
+  sellerNote:
+    "Secondhand dress collection, ₱800 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱800一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/61-secondhand-dress-collection-cover.png",
+},
+{
+  id: 62,
+  nameEn: "Taupe Slip Maxi Dress",
+  nameZh: "燕麦色吊带长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Taupe slip maxi dress / 燕麦色吊带长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/62-taupe-slip-maxi-dress.jpg",
+},
+{
+  id: 63,
+  nameEn: "Gradient Sleeveless Maxi Dress",
+  nameZh: "渐变无袖长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Gradient sleeveless maxi dress / 渐变无袖长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/63-gradient-sleeveless-maxi-dress.jpg",
+},
+{
+  id: 64,
+  nameEn: "Butterfly Print Slip Maxi Dress",
+  nameZh: "蝴蝶印花吊带长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Butterfly print slip maxi dress / 蝴蝶印花吊带长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/64-butterfly-slip-maxi-dress.jpg",
+},
+{
+  id: 65,
+  nameEn: "Navy Square-Neck Dress",
+  nameZh: "藏蓝方领连衣裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Navy square-neck dress / 藏蓝方领连衣裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/65-navy-square-neck-dress.jpg",
+},
+{
+  id: 66,
+  nameEn: "Black Halter Mini Dress",
+  nameZh: "黑色挂脖短裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Black halter mini dress / 黑色挂脖短裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/66-black-halter-mini-dress-main.jpg",
+    "image/66-black-halter-mini-dress-detail.jpg",
+  ],
+},
+{
+  id: 67,
+  nameEn: "Black Sleeveless Long Dress",
+  nameZh: "黑色无袖长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Black sleeveless long dress / 黑色无袖长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/67-black-sleeveless-long-dress-night.jpg",
+    "image/67-black-sleeveless-long-dress-day.jpg",
+  ],
+},
+{
+  id: 68,
+  nameEn: "Yellow and Black Strappy Maxi Dress",
+  nameZh: "黄黑拼色吊带长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Yellow and black strappy maxi dress / 黄黑拼色吊带长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/68-yellow-black-maxi-dress-main.jpg",
+    "image/68-yellow-black-maxi-dress-alt.jpg",
+  ],
+},
+{
+  id: 69,
+  nameEn: "Black Knit Mini Dress",
+  nameZh: "黑色针织短裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Black knit mini dress / 黑色针织短裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/69-black-knit-mini-dress-front.jpg",
+    "image/69-black-knit-mini-dress-back.jpg",
+  ],
+},
+{
+  id: 70,
+  nameEn: "Green Plaid Maxi Dress",
+  nameZh: "绿色格纹长裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Green plaid maxi dress / 绿色格纹长裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/70-green-plaid-maxi-dress-main.jpg",
+    "image/70-green-plaid-maxi-dress-alt.jpg",
+  ],
+},
+{
+  id: 71,
+  nameEn: "Green Floral Slip Dress",
+  nameZh: "绿色花朵吊带裙",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Dress",
+  shortNote: "Green floral slip dress / 绿色花朵吊带裙",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/71-green-floral-slip-dress-close.jpg",
+    "image/71-green-floral-slip-dress-full.jpg",
+  ],
+},
+{
+  id: 72,
+  nameEn: "White Layered Maxi Set",
+  nameZh: "白色层次感长裙套装",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Set",
+  shortNote: "White layered maxi set / 白色层次感长裙套装",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  images: [
+    "image/72-white-layered-maxi-set-main.jpg",
+    "image/72-white-layered-maxi-set-alt.jpg",
+  ],
+},
+{
+  id: 73,
+  nameEn: "White One-Shoulder Wide-Leg Jumpsuit",
+  nameZh: "白色单肩阔腿连体裤",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 800,
+
+  condition: "Very Good / 基本只穿一次或全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Jumpsuit",
+  shortNote: "White one-shoulder wide-leg jumpsuit / 白色单肩阔腿连体裤",
+  sellerNote:
+    "Basic note for this dress collection: some were worn once, some are brand new. Slight negotiation is okay. / 基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+
+  image: "image/73-white-one-shoulder-jumpsuit.jpg",
+},
 ];
 
 // --- App state ---
