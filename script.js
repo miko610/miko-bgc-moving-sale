@@ -1260,6 +1260,31 @@ const products = [
 
   image: "image/59-fire-safety-set.jpeg",
 },
+{
+  id: 60,
+  nameEn: "Secondhand Closet Surprise Box",
+  nameZh: "二手衣服盲盒",
+
+  category: "clothing",
+  categoryLabel: "Clothing 衣服",
+
+  price: 1000,
+
+  condition: "Very Good / 基本只穿过一两次",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "5 Pieces",
+  shortNote: "₱1,000 for 5 random pieces / ₱1,000五件随机衣服",
+  sellerNote:
+    "Secondhand closet surprise box: ₱1,000 for 5 random clothing pieces. Items were basically only worn once or twice. You can leave your height, weight, and style preferences, and I will try to match the box for you. Random accessories, false eyelashes, or similar small extras may be included. Please do not purchase if you mind surprise-box randomness or secondhand items. / 二手衣服盲盒，₱1,000 五件随机衣服。基本都只穿过一两次。可以备注身高体重和风格偏好，我会尽量帮忙搭配。可随机送配饰、假睫毛之类的小物。介意盲盒随机性或二手的小宝勿拍哦。",
+
+  images: [
+    "image/60-closet-surprise-box-main.png",
+    "image/60-closet-surprise-box-details.png",
+  ],
+},
 ];
 
 // --- App state ---
