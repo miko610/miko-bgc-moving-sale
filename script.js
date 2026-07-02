@@ -280,8 +280,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "reserved",
-  statusLabel: "Reserved / 已预定",
+  status: "sold",
+  statusLabel: "Sold / 已售",
 
   image: "image/14-cooking-oil.jpeg",
 },
@@ -649,8 +649,8 @@ const products = [
 
   condition: "Almost New / 基本没用",
 
-  status: "reserved",
-  statusLabel: "Reserved / 已预定",
+  status: "sold",
+  statusLabel: "Sold / 已售",
 
   tag: "Almost New",
   shortNote: "Almost unused 1.5m aircon quilt / 1.5米空调被，基本没用",
