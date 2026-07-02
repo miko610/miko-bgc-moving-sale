@@ -203,10 +203,10 @@ body {
 }
 
 .welcome-banner {
-  width: min(22rem, 68vw);
-  margin: 0 auto 0.85rem;
-  padding: 0.22rem 0.3rem;
-  border-radius: 16px;
+  width: min(15.5rem, 54vw);
+  margin: 0 auto 0.65rem;
+  padding: 0.14rem 0.18rem;
+  border-radius: 12px;
   background:
     linear-gradient(135deg, rgba(255, 222, 235, 0.92), rgba(255, 244, 220, 0.78)),
     #ffd4e3;
@@ -217,7 +217,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 13px;
+  border-radius: 10px;
   mix-blend-mode: multiply;
   object-fit: contain;
 }
@@ -802,14 +802,14 @@ body {
   }
 
   .welcome-banner {
-    width: min(72vw, 18rem);
-    margin-bottom: 0.65rem;
-    padding: 0.16rem;
-    border-radius: 12px;
+    width: min(58vw, 13rem);
+    margin-bottom: 0.5rem;
+    padding: 0.1rem;
+    border-radius: 10px;
   }
 
   .eyebrow-sticker {
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .animal-doodle {
