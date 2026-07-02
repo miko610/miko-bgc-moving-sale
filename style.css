@@ -100,13 +100,13 @@ body {
 .animal-doodle {
   position: absolute;
   z-index: 1;
-  width: 4.3rem;
-  height: 3.5rem;
+  width: 3.35rem;
+  height: 2.75rem;
   border: 3px solid #32242b;
   border-radius: 48% 52% 46% 54%;
   background: rgba(255, 250, 241, 0.76);
-  box-shadow: 4px 4px 0 #f6a9c4;
-  opacity: 0.88;
+  box-shadow: 3px 3px 0 rgba(246, 169, 196, 0.75);
+  opacity: 0.46;
   pointer-events: none;
 }
 
@@ -118,13 +118,13 @@ body {
 
 .animal-doodle span {
   position: absolute;
-  left: 1.1rem;
-  top: 1.45rem;
-  width: 0.38rem;
-  height: 0.38rem;
+  left: 0.82rem;
+  top: 1.08rem;
+  width: 0.3rem;
+  height: 0.3rem;
   border-radius: 50%;
   background: #32242b;
-  box-shadow: 1.35rem 0 0 #32242b;
+  box-shadow: 1.03rem 0 0 #32242b;
 }
 
 .animal-doodle span::before,
@@ -134,34 +134,34 @@ body {
 }
 
 .animal-doodle span::before {
-  left: 0.7rem;
-  top: 0.42rem;
-  width: 0.38rem;
-  height: 0.28rem;
+  left: 0.54rem;
+  top: 0.34rem;
+  width: 0.3rem;
+  height: 0.22rem;
   border-bottom: 2px solid #32242b;
   border-radius: 0 0 999px 999px;
 }
 
 .animal-doodle span::after {
-  left: 0.54rem;
-  top: 0.15rem;
-  width: 0.5rem;
-  height: 0.32rem;
+  left: 0.43rem;
+  top: 0.13rem;
+  width: 0.38rem;
+  height: 0.24rem;
   border-radius: 50%;
   background: #d92f5b;
 }
 
 .animal-cat {
-  left: clamp(1rem, 14vw, 9rem);
-  top: 6.2rem;
+  left: clamp(0.75rem, 12vw, 8rem);
+  top: 8.6rem;
   transform: rotate(-7deg);
 }
 
 .animal-cat::before,
 .animal-cat::after {
-  top: -0.95rem;
-  width: 1.25rem;
-  height: 1.25rem;
+  top: -0.72rem;
+  width: 0.95rem;
+  height: 0.95rem;
   background: rgba(255, 250, 241, 0.9);
   border-left: 3px solid #32242b;
   border-top: 3px solid #32242b;
@@ -169,36 +169,36 @@ body {
 }
 
 .animal-cat::before {
-  left: 0.52rem;
+  left: 0.4rem;
 }
 
 .animal-cat::after {
-  right: 0.52rem;
+  right: 0.4rem;
 }
 
 .animal-dog {
-  right: clamp(1rem, 14vw, 9rem);
-  top: 6.2rem;
+  right: clamp(0.75rem, 12vw, 8rem);
+  top: 8.6rem;
   transform: rotate(6deg);
 }
 
 .animal-dog::before,
 .animal-dog::after {
-  top: 0.55rem;
-  width: 1.05rem;
-  height: 1.8rem;
+  top: 0.42rem;
+  width: 0.8rem;
+  height: 1.35rem;
   background: #f9bfd2;
   border: 3px solid #32242b;
   border-radius: 999px;
 }
 
 .animal-dog::before {
-  left: -0.48rem;
+  left: -0.36rem;
   transform: rotate(18deg);
 }
 
 .animal-dog::after {
-  right: -0.48rem;
+  right: -0.36rem;
   transform: rotate(-18deg);
 }
 
@@ -810,6 +810,80 @@ body {
 
   .eyebrow-sticker {
     border-radius: 10px;
+  }
+
+  .animal-doodle {
+    width: 2.45rem;
+    height: 2rem;
+    border-width: 2px;
+    box-shadow: 2px 2px 0 rgba(246, 169, 196, 0.68);
+    opacity: 0.38;
+  }
+
+  .animal-doodle span {
+    left: 0.6rem;
+    top: 0.78rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    box-shadow: 0.76rem 0 0 #32242b;
+  }
+
+  .animal-doodle span::before {
+    left: 0.38rem;
+    top: 0.24rem;
+    width: 0.22rem;
+    height: 0.16rem;
+    border-bottom-width: 1px;
+  }
+
+  .animal-doodle span::after {
+    left: 0.31rem;
+    top: 0.1rem;
+    width: 0.28rem;
+    height: 0.18rem;
+  }
+
+  .animal-cat {
+    left: 0.8rem;
+    top: 5.05rem;
+  }
+
+  .animal-cat::before,
+  .animal-cat::after {
+    top: -0.52rem;
+    width: 0.68rem;
+    height: 0.68rem;
+    border-left-width: 2px;
+    border-top-width: 2px;
+  }
+
+  .animal-cat::before {
+    left: 0.28rem;
+  }
+
+  .animal-cat::after {
+    right: 0.28rem;
+  }
+
+  .animal-dog {
+    right: 0.8rem;
+    top: 5.05rem;
+  }
+
+  .animal-dog::before,
+  .animal-dog::after {
+    top: 0.3rem;
+    width: 0.58rem;
+    height: 1rem;
+    border-width: 2px;
+  }
+
+  .animal-dog::before {
+    left: -0.26rem;
+  }
+
+  .animal-dog::after {
+    right: -0.26rem;
   }
 
   .tagline-en,
