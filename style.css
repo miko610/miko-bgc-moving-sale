@@ -203,16 +203,50 @@ body {
 }
 
 .welcome-banner {
-  width: min(42rem, 92vw);
-  margin: 0 auto 0.95rem;
+  position: relative;
+  width: min(30rem, 76vw);
+  margin: 0 auto 1rem;
   filter: drop-shadow(0.35rem 0.45rem 0 rgba(217, 47, 91, 0.22));
+}
+
+.welcome-banner::before,
+.welcome-banner::after {
+  align-items: center;
+  background: #fffaf1;
+  border: 3px solid #32242b;
+  border-radius: 18px;
+  box-shadow: 4px 4px 0 rgba(217, 47, 91, 0.25);
+  color: #d92f5b;
+  display: flex;
+  font-size: 1.35rem;
+  font-weight: 900;
+  height: 3rem;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  z-index: 0;
+}
+
+.welcome-banner::before {
+  content: "♡";
+  left: -3.55rem;
+  transform: translateY(-50%) rotate(-10deg);
+}
+
+.welcome-banner::after {
+  content: "✦";
+  right: -3.55rem;
+  transform: translateY(-50%) rotate(10deg);
 }
 
 .eyebrow-sticker {
   display: block;
+  position: relative;
   width: 100%;
   height: auto;
   object-fit: contain;
+  z-index: 1;
 }
 
 .header h1 {
@@ -795,9 +829,28 @@ body {
   }
 
   .welcome-banner {
-    width: min(92vw, 22rem);
+    width: min(70vw, 16.5rem);
     margin-bottom: 0.7rem;
     filter: drop-shadow(0.22rem 0.28rem 0 rgba(217, 47, 91, 0.2));
+  }
+
+  .welcome-banner::before,
+  .welcome-banner::after {
+    border-width: 2px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 0 rgba(217, 47, 91, 0.22);
+    font-size: 0.9rem;
+    height: 2rem;
+    top: 18%;
+    width: 2rem;
+  }
+
+  .welcome-banner::before {
+    left: -1.55rem;
+  }
+
+  .welcome-banner::after {
+    right: -1.55rem;
   }
 
   .animal-doodle {
