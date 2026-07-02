@@ -24,13 +24,10 @@ body {
 .header {
   position: relative;
   overflow: hidden;
-  background:
-    radial-gradient(circle at 12% 18%, rgba(249, 191, 210, 0.45) 0 5.5rem, transparent 5.6rem),
-    radial-gradient(circle at 88% 24%, rgba(249, 191, 210, 0.34) 0 4.6rem, transparent 4.7rem),
-    linear-gradient(180deg, #fffaf1 0%, #fff5f8 100%);
+  background: linear-gradient(180deg, #fff4f8 0%, #fff9f0 100%);
   color: #3b2530;
   border-bottom: 4px solid #32242b;
-  padding: 3rem 0 2rem;
+  padding: 2.2rem 0 2rem;
   text-align: center;
 }
 
@@ -205,12 +202,23 @@ body {
   transform: rotate(-18deg);
 }
 
+.welcome-banner {
+  width: min(36rem, 92vw);
+  margin: 0 auto 0.9rem;
+  padding: 0.4rem 0.55rem;
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(255, 222, 235, 0.92), rgba(255, 244, 220, 0.78)),
+    #ffd4e3;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.62), 0 12px 30px rgba(217, 47, 91, 0.12);
+}
+
 .eyebrow-sticker {
   display: block;
-  width: min(19rem, 78vw);
+  width: 100%;
   height: auto;
-  margin: 0 auto 0.7rem;
-  border-radius: 14px;
+  border-radius: 18px;
+  mix-blend-mode: multiply;
   object-fit: contain;
 }
 
@@ -783,7 +791,7 @@ body {
 /* Mobile tweaks */
 @media (max-width: 480px) {
   .header {
-    padding: 2.35rem 0 1.45rem;
+    padding: 1.35rem 0 1.35rem;
   }
 
   .header h1 {
@@ -793,45 +801,15 @@ body {
     padding: 0.4rem 0.7rem 0.48rem;
   }
 
-  .hero-cloud {
-    font-size: 0.7rem;
-    padding: 0.36rem 0.75rem;
+  .welcome-banner {
+    width: min(100%, 24rem);
+    margin-bottom: 0.75rem;
+    padding: 0.3rem;
+    border-radius: 18px;
   }
 
-  .hero-cloud-left {
-    left: 0.75rem;
-    top: 0.75rem;
-  }
-
-  .hero-cloud-right {
-    top: 0.75rem;
-    right: 0.75rem;
-  }
-
-  .animal-doodle {
-    width: 3.2rem;
-    height: 2.65rem;
-    border-width: 2px;
-    box-shadow: 3px 3px 0 #f6a9c4;
-    opacity: 0.72;
-  }
-
-  .animal-doodle span {
-    left: 0.8rem;
-    top: 1.05rem;
-    width: 0.28rem;
-    height: 0.28rem;
-    box-shadow: 1.02rem 0 0 #32242b;
-  }
-
-  .animal-cat {
-    left: 1.1rem;
-    top: 5.8rem;
-  }
-
-  .animal-dog {
-    right: 1.1rem;
-    top: 5.8rem;
+  .eyebrow-sticker {
+    border-radius: 14px;
   }
 
   .tagline-en,
