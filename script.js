@@ -1293,7 +1293,7 @@ const products = [
   category: "clothing",
   categoryLabel: "Clothing 衣服",
 
-  price: 500,
+  price: "500-800",
 
   condition: "Very Good / 基本只穿一次或全新",
 
@@ -1301,9 +1301,9 @@ const products = [
   statusLabel: "Available / 可售",
 
   tag: "Collection",
-  shortNote: "₱500 each, choose from the dress listings / ₱500一件，点详情任选喜欢的",
+  shortNote: "₱500-800 each, choose from the dress listings / ₱500-800一件，点详情任选喜欢的",
   sellerNote:
-    "Secondhand dress collection, ₱500 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱500一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+    "Secondhand dress collection, ₱500-800 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱500-800一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
 
   images: [
     "image/61-secondhand-dress-collection-cover.png",
@@ -1330,13 +1330,13 @@ const products = [
 },
 {
   id: 74,
-  nameEn: "Secondhand Dress Collection 1000",
-  nameZh: "二手连衣裙合集 1000",
+  nameEn: "Secondhand Dress Collection 1000-1200",
+  nameZh: "二手连衣裙合集 1000-1200",
 
   category: "clothing",
   categoryLabel: "Clothing 衣服",
 
-  price: 1000,
+  price: "1,000-1,200",
 
   condition: "Very Good / 基本只穿一次或全新",
 
@@ -1344,9 +1344,9 @@ const products = [
   statusLabel: "Available / 可售",
 
   tag: "Collection",
-  shortNote: "₱1,000 each, choose from the detail photos / ₱1,000一件，点详情任选喜欢的",
+  shortNote: "₱1,000-1,200 each, choose from the detail photos / ₱1,000-1,200一件，点详情任选喜欢的",
   sellerNote:
-    "Secondhand dress collection, ₱1,000 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱1,000一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
+    "Secondhand dress collection, ₱1,000-1,200 each. Some were worn once, some are brand new. Slight negotiation is okay. Please do not purchase if you mind secondhand items. / 二手连衣裙合集，₱1,000-1,200一件。基本只穿了一次或者全新，可小刀，介意的小宝勿拍哦！！",
 
   images: [
     "image/74-secondhand-dress-collection-1200-cover.png",
