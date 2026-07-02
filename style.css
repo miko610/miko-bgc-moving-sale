@@ -203,21 +203,21 @@ body {
 }
 
 .welcome-banner {
-  width: min(36rem, 92vw);
-  margin: 0 auto 0.9rem;
-  padding: 0.4rem 0.55rem;
-  border-radius: 24px;
+  width: min(22rem, 68vw);
+  margin: 0 auto 0.85rem;
+  padding: 0.22rem 0.3rem;
+  border-radius: 16px;
   background:
     linear-gradient(135deg, rgba(255, 222, 235, 0.92), rgba(255, 244, 220, 0.78)),
     #ffd4e3;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.62), 0 12px 30px rgba(217, 47, 91, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.72);
 }
 
 .eyebrow-sticker {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 18px;
+  border-radius: 13px;
   mix-blend-mode: multiply;
   object-fit: contain;
 }
@@ -802,14 +802,14 @@ body {
   }
 
   .welcome-banner {
-    width: min(100%, 24rem);
-    margin-bottom: 0.75rem;
-    padding: 0.3rem;
-    border-radius: 18px;
+    width: min(72vw, 18rem);
+    margin-bottom: 0.65rem;
+    padding: 0.16rem;
+    border-radius: 12px;
   }
 
   .eyebrow-sticker {
-    border-radius: 14px;
+    border-radius: 10px;
   }
 
   .tagline-en,
