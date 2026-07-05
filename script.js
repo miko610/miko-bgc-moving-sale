@@ -1410,9 +1410,9 @@ const products = [
     "Brand new mattress, still packed and unused. Comfortable support, suitable for upgrading a bed or setting up a new room. Photos include the product listing reference, packed condition, and how it looks on a bed. / 全新床垫，还未使用，包装还在。支撑感舒服，适合换新床垫或布置新房间。图片包含商品参考图、包装状态和铺在床上的效果。",
 
   images: [
+    "image/76-new-mattress-listing.jpeg",
     "image/76-new-mattress-on-bed.jpeg",
     "image/76-new-mattress-packed.jpeg",
-    "image/76-new-mattress-listing.jpeg",
   ],
 },
 
