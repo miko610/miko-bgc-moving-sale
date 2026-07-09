@@ -400,8 +400,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   image: "image/20-electric-meat-grinder.jpeg",
 },
@@ -583,8 +583,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "IKEA",
   shortNote: "Compact bedside table / 宜家床头小茶几",
@@ -693,8 +693,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "LED Mirror",
   shortNote: "Makeup bag with built-in LED mirror / 带 LED 镜子的化妆包",
@@ -715,8 +715,8 @@ const products = [
 
   condition: "Very Good / 九成新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Portable",
   shortNote: "Small handheld iron for clothes / 便携手持小型熨斗",
@@ -759,8 +759,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Large Capacity",
   shortNote: "Large-capacity Xiaomi rice cooker / 小米大容量电饭锅",
@@ -781,8 +781,8 @@ const products = [
 
   condition: "Fair / 有使用痕迹",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "No Cord",
   shortNote: "Can make hot soy milk, but no power cord / 可以打热豆浆，但是没有线",
@@ -898,8 +898,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Storage",
   shortNote: "Storage box with drawers / 带抽屉收纳盒",
@@ -964,8 +964,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   shortNote: "Small electric stew pot / 小炖盅",
   sellerNote:
