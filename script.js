@@ -1415,6 +1415,72 @@ const products = [
     "image/76-new-mattress-packed.jpeg",
   ],
 },
+{
+  id: 77,
+  nameEn: "Free Cotton Pads Bundle",
+  nameZh: "免费化妆棉一组",
+
+  category: "free",
+  categoryLabel: "Free 免费",
+
+  price: 0,
+
+  condition: "Unused, within expiry / 未使用，均在保质期内",
+
+  status: "available",
+  statusLabel: "Available / 可送",
+
+  tag: "Free Gift",
+  shortNote: "Free with purchases over ₱2,000 / 买东西满 ₱2,000 免费送",
+  sellerNote:
+    "Cotton pads bundle, unused and within expiry. Free gift with purchases over ₱2,000; please mention it when messaging if you want to take it together. / 化妆棉一组，未使用，均在保质期内。买东西满 ₱2,000 免费送；想一起带走的话私信时告诉我就好。",
+
+  image: "image/77-free-cotton-pads.jpeg",
+},
+{
+  id: 78,
+  nameEn: "Mediheal Madecassoside Blemish Pad + Refill",
+  nameZh: "美迪惠尔湿敷棉 + 替换装",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆护肤",
+
+  price: 500,
+
+  condition: "Within expiry / 在保质期内",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "With Refill",
+  shortNote: "Mediheal blemish pad with refill pack / 美迪惠尔湿敷棉，带替换装",
+  sellerNote:
+    "Mediheal Madecassoside Blemish Pad with refill pack, within expiry. Good for anyone who already uses this product or wants a convenient skincare pad set. / 美迪惠尔积雪草湿敷棉，带替换装，在保质期内。适合本来就在用这款，或者想要方便湿敷棉套装的小伙伴。",
+
+  image: "image/78-mediheal-blemish-pad-refill.jpeg",
+},
+{
+  id: 79,
+  nameEn: "Medicine & Bandage Bundle",
+  nameZh: "药品 + 创可贴打包",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆护肤",
+
+  price: 1000,
+
+  condition: "Within expiry / 均在保质期内",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Bundle",
+  shortNote: "Medicine and bandage bundle, all within expiry / 药品和创可贴打包，均在保质期内",
+  sellerNote:
+    "Medicine and bandage bundle, all within expiry. Includes assorted common-use items and plasters as shown in the photo; please check the photo and labels before purchasing. / 药品加创可贴打包，均在保质期内。包含图中常备用品和创可贴，购买前请看图片和包装标签确认是否需要。",
+
+  image: "image/79-medicine-bandage-bundle.jpeg",
+},
 
 ];
 
