@@ -825,8 +825,8 @@ const products = [
 
   condition: "Very Good / 九成新",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "reserved",
+  statusLabel: "Reserved / 已预定",
 
   tag: "Full Set",
   shortNote: "Full poker set, includes 5 WPT decks / 德州扑克全套，送5副WPT扑克",
