@@ -1481,6 +1481,28 @@ const products = [
 
   image: "image/79-medicine-bandage-bundle.jpeg",
 },
+{
+  id: 80,
+  nameEn: "IKEA Nissedal Large Mirror",
+  nameZh: "IKEA Nissedal 大镜子",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 1000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Large Mirror",
+  shortNote: "Large IKEA Nissedal mirror, 65 x 150cm / 宜家 Nissedal 大镜子，65 x 150cm",
+  sellerNote:
+    "Large IKEA Nissedal mirror, about 65 x 150cm. Great as a full-length mirror for bedroom, entryway, or dressing area. / 宜家 Nissedal 大镜子，尺寸约 65 x 150cm，很大一面，适合卧室、玄关或穿搭区当全身镜。",
+
+  image: "image/80-ikea-nissedal-mirror.jpeg",
+},
 
 ];
 
