@@ -803,8 +803,8 @@ const products = [
 
   condition: "Good / 良好",
 
-  status: "available",
-  statusLabel: "Available / 可售",
+  status: "sold",
+  statusLabel: "Sold / 已售",
 
   tag: "Toaster",
   shortNote: "Compact toaster / 家用吐司机",
