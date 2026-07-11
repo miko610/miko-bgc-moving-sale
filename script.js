@@ -103,17 +103,17 @@ const products = [
   category: "furniture",
   categoryLabel: "Furniture 家具",
 
-  price: 8000,
+  price: 6000,
 
   condition: "Good / 良好",
 
   status: "available",
   statusLabel: "Available / 可售",
 
-  tag: "Extra Shelves",
-  shortNote: "Extra shelves added, fits 5-6 more pairs / 加装隔板，可多放5-6双鞋",
+  tag: "Multi-use",
+  shortNote: "Multi-use cabinet for shoes, books, or storage / 多功能柜，可做鞋柜、书柜、置物柜",
   sellerNote:
-    "We added several extra shelves inside, so it can hold about 5-6 more pairs of shoes than the original setup. / 鞋柜里面已经自己加装了好几个隔板，比原本可以多放大约5-6双鞋。",
+    "Multi-use IKEA BILLY cabinet. It can be used as a shoe cabinet, bookcase, or general storage cabinet for everyday items. / 多功能 IKEA 毕利柜，可以做鞋柜、书柜，也可以当日常置物柜使用。",
 
   image: "image/05-billy-shoe-cabinet.jpg",
 },
@@ -1558,7 +1558,7 @@ const products = [
   category: "electronics",
   categoryLabel: "Electronics 电器",
 
-  price: 1500,
+  price: 8000,
 
   condition: "Very Good / 很新",
 
@@ -1593,6 +1593,31 @@ const products = [
     "White toilet storage rack, useful for keeping bathroom items organized above the toilet. / 白色马桶置物架，可以放在马桶上方收纳浴室小物。",
 
   image: "image/84-toilet-storage-rack.jpeg",
+},
+{
+  id: 85,
+  nameEn: "Sharp Small Chest Freezer",
+  nameZh: "夏普小冻柜",
+
+  category: "electronics",
+  categoryLabel: "Electronics 电器",
+
+  price: 4000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Chest Freezer",
+  shortNote: "Compact Sharp chest freezer / 夏普小冻柜",
+  sellerNote:
+    "Compact Sharp chest type freezer, useful for frozen food storage and extra freezer space at home. Photos show the outside and inside. / 夏普小型卧式冻柜，适合冷冻食品收纳，家里需要额外冷冻空间很实用。图片包含外观和内部。",
+
+  images: [
+    "image/85-sharp-small-freezer-main.jpeg",
+    "image/85-sharp-small-freezer-inside.jpeg",
+  ],
 },
 
 ];
