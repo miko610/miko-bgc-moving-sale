@@ -1503,6 +1503,97 @@ const products = [
 
   image: "image/80-ikea-nissedal-mirror.jpeg",
 },
+{
+  id: 81,
+  nameEn: "Sterile Skin Roller Needles 0.5mm Set",
+  nameZh: "0.5mm 无菌皮肤滚针 5盒",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆护肤",
+
+  price: 450,
+
+  condition: "New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "5 Boxes",
+  shortNote: "5 boxes, 192 needles each, 0.5mm; free medical gloves / 5盒192针0.5mm滚针，赠送医用手套",
+  sellerNote:
+    "Set includes 5 boxes of disposable sterile skin roller needles, 192 needles each, 0.5mm. Medical gloves shown in the second photo are included as a free gift. Please check the packaging before use. / 一套 5 盒一次性无菌皮肤滚针，每盒 192 针，0.5mm。图二医用手套一起赠送。使用前请自行确认包装信息。",
+
+  images: [
+    "image/81-sterile-roller-needles-main.jpeg",
+    "image/81-medical-gloves-gift.jpeg",
+  ],
+},
+{
+  id: 82,
+  nameEn: "Anti-Hair Loss Essence",
+  nameZh: "全新防脱精华液",
+
+  category: "beauty",
+  categoryLabel: "Beauty 美妆护肤",
+
+  price: 1500,
+
+  condition: "Brand New / 全新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Brand New",
+  shortNote: "Brand new anti-hair loss essence / 全新防脱精华液",
+  sellerNote:
+    "Brand new anti-hair loss essence. Please check the product photo and packaging information before purchasing. / 全新防脱精华液，购买前请看图片和包装信息确认是否需要。",
+
+  image: "image/82-anti-hair-loss-essence.jpeg",
+},
+{
+  id: 83,
+  nameEn: "Unblock Tech TV Box",
+  nameZh: "安博盒子",
+
+  category: "electronics",
+  categoryLabel: "Electronics 电器",
+
+  price: 1500,
+
+  condition: "Very Good / 很新",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Very New",
+  shortNote: "Unblock Tech TV box, very new / 安博盒子，很新",
+  sellerNote:
+    "Unblock Tech TV box in very new condition. Good add-on for a TV setup. / 安博盒子，很新，适合搭配电视使用。",
+
+  image: "image/83-unblock-tech-tv-box.jpeg",
+},
+{
+  id: 84,
+  nameEn: "Toilet Storage Rack",
+  nameZh: "马桶置物架",
+
+  category: "furniture",
+  categoryLabel: "Furniture 家具",
+
+  price: 150,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Storage",
+  shortNote: "White toilet storage rack / 白色马桶置物架",
+  sellerNote:
+    "White toilet storage rack, useful for keeping bathroom items organized above the toilet. / 白色马桶置物架，可以放在马桶上方收纳浴室小物。",
+
+  image: "image/84-toilet-storage-rack.jpeg",
+},
 
 ];
 
