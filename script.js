@@ -1619,6 +1619,166 @@ const products = [
     "image/85-sharp-small-freezer-inside.jpeg",
   ],
 },
+{
+  id: 86,
+  nameEn: "Duffy Disney Backpack",
+  nameZh: "达菲双肩包",
+
+  category: "clothing",
+  categoryLabel: "Clothing 服饰",
+
+  price: 2000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Cute Backpack",
+  shortNote: "Duffy Disney backpack with price reference / 达菲双肩包，附购买价格参考",
+  sellerNote:
+    "Cute Duffy Disney backpack, good for daily use, travel, or as a collectible bag. Second photo shows the original purchase reference. / 可爱的达菲双肩包，日常出门、旅行或收藏都适合。第二张图是购买价格参考。",
+
+  images: [
+    "image/86-duffy-backpack-main.jpg",
+    "image/86-duffy-backpack-price-ref.jpg",
+  ],
+},
+{
+  id: 87,
+  nameEn: "Money Counter Machine",
+  nameZh: "点钞机",
+
+  category: "electronics",
+  categoryLabel: "Electronics 电器",
+
+  price: 500,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Money Counter",
+  shortNote: "Cash counting machine / 点钞机",
+  sellerNote:
+    "Money counter machine for quick cash counting. Useful for shop, office, or personal cash handling. / 点钞机，适合店铺、办公室或日常现金整理使用。",
+
+  image: "image/87-money-counter.jpg",
+},
+{
+  id: 88,
+  nameEn: "Babycare Constant Temperature Kettle",
+  nameZh: "Babycare 恒温壶",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房用品",
+
+  price: 800,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Baby Care",
+  shortNote: "Constant temperature kettle for baby formula or warm water / 恒温壶，适合冲奶和日常温水",
+  sellerNote:
+    "Babycare constant temperature kettle, convenient for keeping warm water ready for baby formula or daily drinking water. / Babycare 恒温壶，适合冲奶、泡水或日常需要温水时使用。",
+
+  image: "image/88-babycare-temperature-kettle.jpg",
+},
+{
+  id: 89,
+  nameEn: "Bololo Milk Shaker",
+  nameZh: "Bololo 摇奶器",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房用品",
+
+  price: 400,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Milk Shaker",
+  shortNote: "Bololo baby bottle milk shaker / Bololo 摇奶器",
+  sellerNote:
+    "Bololo milk shaker for mixing milk evenly and conveniently. Good helper for baby feeding routines. / Bololo 摇奶器，方便把奶摇匀，带娃日常很实用。",
+
+  image: "image/89-bololo-milk-shaker.jpg",
+},
+{
+  id: 90,
+  nameEn: "Black GG Chain Bag",
+  nameZh: "黑色链条包",
+
+  category: "clothing",
+  categoryLabel: "Clothing 服饰",
+
+  price: 10000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "RMB 9,000+ Original",
+  shortNote: "Black chain bag, original price was over RMB 9,000 / 黑色链条包，原价9000多人民币",
+  sellerNote:
+    "Black chain bag with gold-tone hardware. Seller notes the original purchase price was over RMB 9,000. / 黑色链条包，金色链条五金。原价 9000 多人民币，搬家出清价出售。",
+
+  image: "image/90-gucci-black-chain-bag.jpg",
+},
+{
+  id: 91,
+  nameEn: "Kitchenlux Multicooker",
+  nameZh: "Kitchenlux 多功能锅",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房用品",
+
+  price: 1000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Multicooker",
+  shortNote: "Kitchenlux multicooker, 4.3L / Kitchenlux 多功能锅，4.3L",
+  sellerNote:
+    "Kitchenlux 4.3L multicooker with box. Can be used for hot pot, grilling, stews, and everyday cooking. / Kitchenlux 4.3L 多功能锅，带盒子，可火锅、煎烤、炖煮和日常做饭使用。",
+
+  images: [
+    "image/91-kitchenlux-multicooker-box.jpg",
+    "image/91-kitchenlux-multicooker-inside.jpg",
+  ],
+},
+{
+  id: 92,
+  nameEn: "Joyoung Electric Hot Pot",
+  nameZh: "九阳电火锅",
+
+  category: "kitchen",
+  categoryLabel: "Kitchen 厨房用品",
+
+  price: 1000,
+
+  condition: "Good / 状态良好",
+
+  status: "available",
+  statusLabel: "Available / 可售",
+
+  tag: "Electric Hot Pot",
+  shortNote: "Joyoung electric hot pot / 九阳电火锅",
+  sellerNote:
+    "Joyoung electric hot pot, suitable for hot pot, cooking, and shared meals at home. / 九阳电火锅，适合火锅、煮食和家庭聚餐使用。",
+
+  image: "image/92-joyoung-electric-hot-pot.jpg",
+},
 
 ];
 
